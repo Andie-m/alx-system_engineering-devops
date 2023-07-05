@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -ap1 | sed -e '/^[.]\{1,2\}$/!s/\(.*[^\/]\)$/\1\//' | sort -df | tr '\n' ',' && echo
-
+ls -amvp
