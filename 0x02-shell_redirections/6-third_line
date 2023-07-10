@@ -1,2 +1,10 @@
 #!/bin/bash
-line=$(head -n 3 ./iacta | tail -n 1) echo "$line"
+
+file_name="iacta"
+
+if [ -f "$file_name" ]; then
+  line=$(head -n 3 "$file_name" | tail -n 1)
+  echo "$line"
+else
+  echo "The file '$file_name' does not exist."
+fi
