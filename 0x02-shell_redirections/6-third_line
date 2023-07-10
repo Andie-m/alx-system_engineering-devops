@@ -1,2 +1,2 @@
 #!/bin/bash
-file_name="iacta"; [ -f "$file_name" ] && [ $(wc -l < "$file_name") -ge 3 ] && sed -n '3p' "$file_name"
+head -3 iacta | tail -l
