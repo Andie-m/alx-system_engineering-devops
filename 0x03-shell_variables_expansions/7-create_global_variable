@@ -1,2 +1,2 @@
-export BEST=School
-echo "The value of BEST is $BEST"
+#!/bin/bash
+export BEST="School"
