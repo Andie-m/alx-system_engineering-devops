@@ -1,2 +1,2 @@
 #!/bin/bash
-result=$((water + stir)) echo "shtbeolhc$result\n chelbteb$result\n b $result"
+water_value="$WATER" stir_value="$STIR" result=$((water_value + stir_value)) echo "Result in base bestchol: $result"
